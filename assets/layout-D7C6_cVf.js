@@ -1,0 +1,43 @@
+import{n as e}from"./chunk-DnJy8xQt.js";import{r as t}from"./react-pjoPW_VL.js";import{a as n}from"./chunk-RD3KTAHR-BqomIf-d.js";import{l as r,o as i}from"./blocks-n35kXg-I.js";import{t as a}from"./mdx-react-shim-DzZRHTHx.js";function o(e){let n={code:`code`,h1:`h1`,h2:`h2`,li:`li`,p:`p`,pre:`pre`,strong:`strong`,ul:`ul`,...t(),...e.components};return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(i,{title:`Foundations/Layout`}),`
+`,`
+`,`
+`,`
+`,`
+`,`
+`,`
+`,`
+`,(0,c.jsx)(n.h1,{id:`layout--grid`,children:`Layout & Grid`}),`
+`,(0,c.jsxs)(n.p,{children:[`A 12-column flexbox grid implemented by `,(0,c.jsx)(n.code,{children:`<grid-row>`}),` and `,(0,c.jsx)(n.code,{children:`<grid-column>`}),`. The primary breakpoint is `,(0,c.jsxs)(n.strong,{children:[(0,c.jsx)(n.code,{children:`md`}),` (912px)`]}),` — the desktop width WordPress's settings UI is designed around.`]}),`
+`,(0,c.jsx)(n.h2,{id:`breakpoints`,children:`Breakpoints`}),`
+`,(0,c.jsx)(`div`,{style:{margin:`12px 0 24px`,overflow:`hidden`,borderRadius:8,border:`1px solid `+p},children:(0,c.jsxs)(`table`,{style:{width:`100%`,borderCollapse:`collapse`,fontFamily:l,fontSize:14},children:[(0,c.jsx)(`thead`,{style:{background:f},children:(0,c.jsxs)(`tr`,{children:[(0,c.jsx)(`th`,{style:{textAlign:`left`,padding:`10px 14px`,color:d,fontWeight:600,fontSize:12,textTransform:`uppercase`,letterSpacing:.5},children:`Suffix`}),(0,c.jsx)(`th`,{style:{textAlign:`left`,padding:`10px 14px`,color:d,fontWeight:600,fontSize:12,textTransform:`uppercase`,letterSpacing:.5},children:`Min width`}),(0,c.jsx)(`th`,{style:{textAlign:`left`,padding:`10px 14px`,color:d,fontWeight:600,fontSize:12,textTransform:`uppercase`,letterSpacing:.5},children:`Notes`})]})}),(0,c.jsx)(`tbody`,{children:g.map(e=>(0,c.jsxs)(`tr`,{style:{borderTop:`1px solid `+p,background:e.key===`md`?`#F0F6FF`:`#fff`},children:[(0,c.jsx)(`td`,{style:{padding:`12px 14px`,fontFamily:`ui-monospace, SFMono-Regular, Menlo, monospace`,color:e.key===`md`?m:u,fontWeight:e.key===`md`?600:400},children:e.key}),(0,c.jsx)(`td`,{style:{padding:`12px 14px`,fontFamily:`ui-monospace, SFMono-Regular, Menlo, monospace`,color:u},children:e.min}),(0,c.jsx)(`td`,{style:{padding:`12px 14px`,color:e.key===`md`?u:d},children:e.note})]},e.key))})]})}),`
+`,(0,c.jsx)(n.h2,{id:`the-12-column-grid`,children:`The 12-column grid`}),`
+`,(0,c.jsxs)(`div`,{style:y,children:[(0,c.jsx)(`div`,{style:b,children:`12 equal columns`}),(0,c.jsx)(`div`,{style:v,children:[1,2,3,4,5,6,7,8,9,10,11,12].map(e=>(0,c.jsx)(`div`,{style:_(1),children:e},e))})]}),`
+`,(0,c.jsx)(n.pre,{children:(0,c.jsx)(n.code,{className:`language-vue`,children:`<grid-row>
+	<grid-column md="1" v-for="n in 12">{{ n }}</grid-column>
+</grid-row>
+`})}),`
+`,(0,c.jsx)(n.h2,{id:`common-layouts`,children:`Common layouts`}),`
+`,(0,c.jsxs)(`div`,{style:y,children:[(0,c.jsx)(`div`,{style:b,children:`3 + 9 — settings row default`}),(0,c.jsxs)(`div`,{style:v,children:[(0,c.jsx)(`div`,{style:_(3),children:`md=3`}),(0,c.jsx)(`div`,{style:_(9),children:`md=9`})]}),(0,c.jsxs)(`div`,{style:{...x,marginTop:8},children:[`The default `,(0,c.jsx)(`code`,{children:`core-settings-row`}),` shape — label on the left, content on the right.`]})]}),`
+`,(0,c.jsxs)(`div`,{style:y,children:[(0,c.jsx)(`div`,{style:b,children:`4 + 8 — feature card`}),(0,c.jsxs)(`div`,{style:v,children:[(0,c.jsx)(`div`,{style:_(4),children:`md=4`}),(0,c.jsx)(`div`,{style:_(8),children:`md=8`})]})]}),`
+`,(0,c.jsxs)(`div`,{style:y,children:[(0,c.jsx)(`div`,{style:b,children:`6 + 6 — split`}),(0,c.jsxs)(`div`,{style:v,children:[(0,c.jsx)(`div`,{style:_(6),children:`md=6`}),(0,c.jsx)(`div`,{style:_(6),children:`md=6`})]})]}),`
+`,(0,c.jsxs)(`div`,{style:y,children:[(0,c.jsx)(`div`,{style:b,children:`4 + 4 + 4 — three-up tile row`}),(0,c.jsxs)(`div`,{style:v,children:[(0,c.jsx)(`div`,{style:_(4),children:`md=4`}),(0,c.jsx)(`div`,{style:_(4),children:`md=4`}),(0,c.jsx)(`div`,{style:_(4),children:`md=4`})]})]}),`
+`,(0,c.jsx)(n.h2,{id:`responsive-collapse`,children:`Responsive collapse`}),`
+`,(0,c.jsxs)(n.p,{children:[`Below `,(0,c.jsx)(n.code,{children:`md`}),` (912px) every column drops to full width unless an `,(0,c.jsx)(n.code,{children:`xs`}),` / `,(0,c.jsx)(n.code,{children:`sm`}),` value is provided.`]}),`
+`,(0,c.jsxs)(`div`,{style:y,children:[(0,c.jsx)(`div`,{style:b,children:`Resize the canvas to see this collapse below 912px`}),(0,c.jsxs)(`div`,{style:v,children:[(0,c.jsx)(`div`,{style:_(3),children:`xs=12 md=3`}),(0,c.jsx)(`div`,{style:_(9),children:`xs=12 md=9`})]})]}),`
+`,(0,c.jsx)(n.pre,{children:(0,c.jsx)(n.code,{className:`language-vue`,children:`<grid-row>
+	<grid-column xs="12" md="3">Sidebar</grid-column>
+	<grid-column xs="12" md="9">Main</grid-column>
+</grid-row>
+`})}),`
+`,(0,c.jsx)(n.h2,{id:`core-settings-row-caps`,children:`core-settings-row caps`}),`
+`,(0,c.jsxs)(n.p,{children:[(0,c.jsx)(n.code,{children:`<core-settings-row>`}),` adds two additional layout caps once the `,(0,c.jsx)(n.code,{children:`md`}),` breakpoint is reached, keeping wide viewports readable:`]}),`
+`,(0,c.jsxs)(n.ul,{children:[`
+`,(0,c.jsxs)(n.li,{children:[(0,c.jsx)(n.strong,{children:`Left column`}),` (label) capped at `,(0,c.jsx)(n.strong,{children:`240px`})]}),`
+`,(0,c.jsxs)(n.li,{children:[(0,c.jsx)(n.strong,{children:`Right column`}),` (content) capped at `,(0,c.jsx)(n.strong,{children:`940px`})]}),`
+`]}),`
+`,(0,c.jsx)(n.p,{children:`This prevents long inputs from sprawling across ultra-wide displays while still allowing fluid mobile and tablet layouts.`}),`
+`,(0,c.jsx)(`div`,{style:S,children:(0,c.jsxs)(n.p,{children:[(0,c.jsx)(`strong`,{children:`Use the live grid stories`}),` — Components → Grid renders real `,(0,c.jsx)(`code`,{children:`<grid-row>`}),` / `,(0,c.jsx)(`code`,{children:`<grid-column>`}),` demos at multiple shapes. Drag the canvas frame across 912px to verify behavior at the primary breakpoint.`]})}),`
+`,(0,c.jsx)(n.h2,{id:`row-alignment-props`,children:`Row alignment props`}),`
+`,(0,c.jsxs)(n.p,{children:[`Boolean props per breakpoint, applied to `,(0,c.jsx)(n.code,{children:`<grid-row>`}),`:`]}),`
+`,(0,c.jsxs)(`div`,{style:{display:`grid`,gridTemplateColumns:`repeat(auto-fit, minmax(220px, 1fr))`,gap:12,margin:`12px 0 24px`},children:[(0,c.jsxs)(`div`,{style:{padding:14,background:f,border:`1px solid `+p,borderRadius:6},children:[(0,c.jsx)(`div`,{style:b,children:`Horizontal`}),(0,c.jsx)(`div`,{style:x,children:`start-md · center-md · end-md · around-md · between-md`})]}),(0,c.jsxs)(`div`,{style:{padding:14,background:f,border:`1px solid `+p,borderRadius:6},children:[(0,c.jsx)(`div`,{style:b,children:`Vertical`}),(0,c.jsx)(`div`,{style:x,children:`top-md · middle-md · bottom-md`})]}),(0,c.jsxs)(`div`,{style:{padding:14,background:f,border:`1px solid `+p,borderRadius:6},children:[(0,c.jsx)(`div`,{style:b,children:`Direction`}),(0,c.jsx)(`div`,{style:x,children:`reverse — flips row direction`})]})]}),`
+`,(0,c.jsxs)(n.p,{children:[`The same suffix pattern applies to `,(0,c.jsx)(n.code,{children:`xs`}),`, `,(0,c.jsx)(n.code,{children:`sm`}),`, `,(0,c.jsx)(n.code,{children:`lg`}),`, `,(0,c.jsx)(n.code,{children:`xl`}),`. Stack as many breakpoint variants as the layout needs.`]})]})}function s(e={}){let{wrapper:n}={...t(),...e.components};return n?(0,c.jsx)(n,{...e,children:(0,c.jsx)(o,{...e})}):o(e)}var c,l,u,d,f,p,m,h,g,_,v,y,b,x,S;e((()=>{c=n(),a(),r(),l=`-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif`,u=`#141B38`,d=`#555D66`,f=`#F9F9FA`,p=`#E8E8EB`,m=`#005AE0`,h=`#EDF0F3`,g=[{key:`xs`,min:`0px`,note:`Mobile first, default`},{key:`sm`,min:`480px`,note:`Large phones / small tablets`},{key:`md`,min:`912px`,note:`PRIMARY — the WordPress admin desktop breakpoint`},{key:`lg`,min:`1280px`,note:`Standard desktop`},{key:`xl`,min:`1600px`,note:`Wide desktop`}],_=e=>({background:m,color:`#fff`,padding:`14px 8px`,borderRadius:4,textAlign:`center`,fontSize:12,fontWeight:600,fontFamily:`ui-monospace, SFMono-Regular, Menlo, monospace`,flex:e+` 1 0`,minWidth:0}),v={display:`flex`,gap:12,margin:`8px 0`},y={padding:20,background:h,border:`1px solid `+p,borderRadius:8,margin:`12px 0 24px`},b={fontSize:13,color:u,fontWeight:600,fontFamily:l,marginBottom:8},x={fontFamily:`ui-monospace, SFMono-Regular, Menlo, monospace`,fontSize:12,color:d},S={marginTop:20,padding:`16px 18px`,borderRadius:8,background:`#F0F6FF`,border:`1px solid `+m,fontFamily:l,fontSize:14,color:u,lineHeight:1.55}}))();export{p as borderColor,m as brand,g as breakpoints,S as calloutStyle,_ as cellStyle,s as default,l as family,u as ink,b as labelStyle,d as muted,v as rowStyle,x as specStyle,f as surface,h as trayBg,y as trayStyle};

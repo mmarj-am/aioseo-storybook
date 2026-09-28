@@ -1,0 +1,9 @@
+import{n as e,r as t}from"./chunk-DnJy8xQt.js";import{l as n,u as r}from"./iframe-D8aQDl12.js";var i=t({Default:()=>o,Loading:()=>s,NoImage:()=>c,__namedExportsOrder:()=>l,default:()=>a}),a,o,s,c,l,u=e((()=>{r(),a={title:`Components/Core/Twitter Preview`,component:n,parameters:{docs:{description:{component:`X / Twitter share-card preview. Card type (summary vs summary_large_image) is read from options store; for visual stories, both layouts are exercised below.`}},layout:`centered`},argTypes:{title:{control:`text`},description:{control:`text`},image:{control:`text`},loading:{control:`boolean`}},args:{title:`Why On-Page SEO Still Matters in 2026`,description:`A practical walkthrough of what to fix first on a content-driven site.`,image:`https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1200&h=630&fit=crop`,loading:!1},render:e=>({components:{CoreTwitterPreview:n},setup(){return{args:e}},template:`<div style="max-width:540px;"><core-twitter-preview v-bind="args" /></div>`})},o={},s={args:{loading:!0}},c={args:{image:``}},o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{}`,...o.parameters?.docs?.source}}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  args: {
+    loading: true
+  }
+}`,...s.parameters?.docs?.source}}},c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+  args: {
+    image: ''
+  }
+}`,...c.parameters?.docs?.source}}},l=[`Default`,`Loading`,`NoImage`]}));u();export{o as Default,s as Loading,c as NoImage,l as __namedExportsOrder,a as default,u as n,i as t};

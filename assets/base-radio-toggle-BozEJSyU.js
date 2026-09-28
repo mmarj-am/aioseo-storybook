@@ -1,0 +1,13 @@
+import{n as e}from"./chunk-DnJy8xQt.js";import{r as t}from"./react-pjoPW_VL.js";import{a as n}from"./chunk-RD3KTAHR-BqomIf-d.js";import{c as r,l as i,o as a,r as o,s}from"./blocks-n35kXg-I.js";import{t as c}from"./mdx-react-shim-DzZRHTHx.js";import{_ as l,a as u,c as d,d as f,f as p,g as m,l as h,m as g,n as _,o as v,s as y,u as b,v as x,y as S}from"./docs-style-CDue0-Gb.js";import{n as C,t as w}from"./base-radio-toggle.stories-Cd_JpiLr.js";function T(e){let n={h1:`h1`,p:`p`,...t(),...e.components};return(0,D.jsxs)(D.Fragment,{children:[(0,D.jsx)(a,{of:w}),`
+`,(0,D.jsx)(n.h1,{id:``,children:`\xA0`}),`
+`,(0,D.jsxs)(`div`,{style:f,children:[(0,D.jsxs)(`div`,{style:d,children:[(0,D.jsx)(`span`,{style:{color:_,fontWeight:700},children:`AIOSEO`}),(0,D.jsx)(`span`,{style:y}),(0,D.jsx)(`span`,{children:`Components · Base`}),(0,D.jsx)(`span`,{style:y}),(0,D.jsx)(`span`,{children:`<base-radio-toggle>`})]}),(0,D.jsx)(`div`,{style:h,children:`Radio Toggle`}),(0,D.jsx)(`div`,{style:b,children:(0,D.jsxs)(n.p,{children:[`Segmented control for picking one of N exclusive options. Source: `,(0,D.jsx)(`code`,{style:g,children:`common/base/RadioToggle.vue`}),`.`]})})]}),`
+`,(0,D.jsxs)(`div`,{style:l,children:[(0,D.jsxs)(`div`,{children:[(0,D.jsx)(`div`,{style:m,children:`01`}),(0,D.jsx)(`h2`,{style:S,children:`API`}),(0,D.jsxs)(`p`,{style:x,children:[(0,D.jsx)(`code`,{style:g,children:`options`}),` and `,(0,D.jsx)(`code`,{style:g,children:`name`}),` are required.`]})]}),(0,D.jsx)(`div`,{children:(0,D.jsx)(`pre`,{style:{background:`#0F1424`,color:`#E8E8EB`,padding:`16px 20px`,borderRadius:8,fontFamily:`ui-monospace, SFMono-Regular, Menlo, monospace`,fontSize:13,lineHeight:1.7,margin:0,overflow:`auto`},children:`<base-radio-toggle
+:options="[{ label, value, disabled?, activeClass? }, ...]"
+name="unique-name"
+v-model="selected"
+:inline="false"
+:circle="false"
+/>`})})]}),`
+`,(0,D.jsxs)(`div`,{style:u,children:[(0,D.jsxs)(`div`,{style:v,children:[(0,D.jsx)(`div`,{style:m,children:`02`}),(0,D.jsx)(`h2`,{style:S,children:`Live`})]}),(0,D.jsx)(s,{})]}),`
+`,(0,D.jsxs)(`div`,{style:u,children:[(0,D.jsxs)(`div`,{style:v,children:[(0,D.jsx)(`div`,{style:m,children:`03`}),(0,D.jsx)(`h2`,{style:S,children:`Controls`})]}),(0,D.jsx)(o,{})]}),`
+`,(0,D.jsxs)(`div`,{style:u,children:[(0,D.jsxs)(`div`,{style:v,children:[(0,D.jsx)(`div`,{style:m,children:`04`}),(0,D.jsx)(`h2`,{style:S,children:`All variants`})]}),(0,D.jsx)(r,{})]})]})}function E(e={}){let{wrapper:n}={...t(),...e.components};return n?(0,D.jsx)(n,{...e,children:(0,D.jsx)(T,{...e})}):T(e)}var D;e((()=>{D=n(),c(),i(),C(),p()}))();export{E as default};

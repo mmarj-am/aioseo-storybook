@@ -1,0 +1,458 @@
+{
+	"source": "/Users/adam/dev/aioseo/all-in-one-seo-pack-pro/src/vue/assets/scss/app/variables.scss",
+	"generatedAt": "2026-05-07T15:57:37.066Z",
+	"tokens": [
+		{
+			"name": "green",
+			"value": "#00AA63",
+			"type": "color"
+		},
+		{
+			"name": "green2",
+			"value": "#07C575",
+			"type": "color"
+		},
+		{
+			"name": "green3",
+			"value": "#15955F",
+			"type": "color"
+		},
+		{
+			"name": "green4",
+			"value": "#D1FAE5",
+			"type": "color"
+		},
+		{
+			"name": "black",
+			"value": "#141B38",
+			"type": "color"
+		},
+		{
+			"name": "black2",
+			"value": "#434960",
+			"type": "color"
+		},
+		{
+			"name": "black2-hover",
+			"value": "#2C324C",
+			"type": "color"
+		},
+		{
+			"name": "black3",
+			"value": "#202124",
+			"type": "color"
+		},
+		{
+			"name": "blue",
+			"value": "#005AE0",
+			"type": "color"
+		},
+		{
+			"name": "blue2",
+			"value": "#1A82EA",
+			"type": "color"
+		},
+		{
+			"name": "blue3",
+			"value": "#004F9D",
+			"type": "color"
+		},
+		{
+			"name": "blue4",
+			"value": "#F0F6FF",
+			"type": "color"
+		},
+		{
+			"name": "blue5",
+			"value": "#007CBA",
+			"type": "color"
+		},
+		{
+			"name": "gray",
+			"value": "#DCDDE1",
+			"type": "color"
+		},
+		{
+			"name": "gray2",
+			"value": "#DADADA",
+			"type": "color"
+		},
+		{
+			"name": "gray3",
+			"value": "#555D66",
+			"type": "color"
+		},
+		{
+			"name": "gray4",
+			"value": "#F3F5F6",
+			"type": "color"
+		},
+		{
+			"name": "red",
+			"value": "#DF2A4A",
+			"type": "color"
+		},
+		{
+			"name": "red2",
+			"value": "#AB2039",
+			"type": "color"
+		},
+		{
+			"name": "red3",
+			"value": "#F83C5D",
+			"type": "color"
+		},
+		{
+			"name": "yellow",
+			"value": "#FCFAE8",
+			"type": "color"
+		},
+		{
+			"name": "yellow-highlight",
+			"value": "#e5d895",
+			"type": "color"
+		},
+		{
+			"name": "white",
+			"value": "#FFFFFF",
+			"type": "color"
+		},
+		{
+			"name": "white2",
+			"value": "#F0F2F5",
+			"type": "color"
+		},
+		{
+			"name": "white3",
+			"value": "#F2F3F5",
+			"type": "color"
+		},
+		{
+			"name": "orange",
+			"value": "#F18200",
+			"type": "color"
+		},
+		{
+			"name": "orange2",
+			"value": "#F28A10",
+			"type": "color"
+		},
+		{
+			"name": "orange3",
+			"value": "#D4790D",
+			"type": "color"
+		},
+		{
+			"name": "background",
+			"value": "#F3F4F5",
+			"type": "color"
+		},
+		{
+			"name": "border",
+			"value": "#E8E8EB",
+			"type": "color"
+		},
+		{
+			"name": "inline-background",
+			"value": "#F2F7FD",
+			"type": "color"
+		},
+		{
+			"name": "input-border",
+			"value": "#D0D1D7",
+			"type": "color"
+		},
+		{
+			"name": "box-background",
+			"value": "#F9F9FA",
+			"type": "color"
+		},
+		{
+			"name": "box-background2",
+			"value": "#f8fbff",
+			"type": "color"
+		},
+		{
+			"name": "placeholder-color",
+			"value": "#8C8F9A",
+			"type": "color"
+		},
+		{
+			"name": "font-family",
+			"value": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+			"type": "fontFamily"
+		},
+		{
+			"name": "font-bold",
+			"value": "600",
+			"type": "typography"
+		},
+		{
+			"name": "font-sm",
+			"value": "12px",
+			"type": "fontSize"
+		},
+		{
+			"name": "font-md",
+			"value": "14px",
+			"type": "fontSize"
+		},
+		{
+			"name": "font-lg",
+			"value": "16px",
+			"type": "fontSize"
+		},
+		{
+			"name": "font-color",
+			"value": "#3c434a",
+			"type": "color"
+		},
+		{
+			"name": "gutter",
+			"value": "20px",
+			"type": "space"
+		},
+		{
+			"name": "gutter-sm",
+			"value": "16px",
+			"type": "space"
+		},
+		{
+			"name": "gutter-half",
+			"value": "10px",
+			"type": "space"
+		}
+	],
+	"grouped": {
+		"color": [
+			{
+				"name": "green",
+				"value": "#00AA63",
+				"type": "color"
+			},
+			{
+				"name": "green2",
+				"value": "#07C575",
+				"type": "color"
+			},
+			{
+				"name": "green3",
+				"value": "#15955F",
+				"type": "color"
+			},
+			{
+				"name": "green4",
+				"value": "#D1FAE5",
+				"type": "color"
+			},
+			{
+				"name": "black",
+				"value": "#141B38",
+				"type": "color"
+			},
+			{
+				"name": "black2",
+				"value": "#434960",
+				"type": "color"
+			},
+			{
+				"name": "black2-hover",
+				"value": "#2C324C",
+				"type": "color"
+			},
+			{
+				"name": "black3",
+				"value": "#202124",
+				"type": "color"
+			},
+			{
+				"name": "blue",
+				"value": "#005AE0",
+				"type": "color"
+			},
+			{
+				"name": "blue2",
+				"value": "#1A82EA",
+				"type": "color"
+			},
+			{
+				"name": "blue3",
+				"value": "#004F9D",
+				"type": "color"
+			},
+			{
+				"name": "blue4",
+				"value": "#F0F6FF",
+				"type": "color"
+			},
+			{
+				"name": "blue5",
+				"value": "#007CBA",
+				"type": "color"
+			},
+			{
+				"name": "gray",
+				"value": "#DCDDE1",
+				"type": "color"
+			},
+			{
+				"name": "gray2",
+				"value": "#DADADA",
+				"type": "color"
+			},
+			{
+				"name": "gray3",
+				"value": "#555D66",
+				"type": "color"
+			},
+			{
+				"name": "gray4",
+				"value": "#F3F5F6",
+				"type": "color"
+			},
+			{
+				"name": "red",
+				"value": "#DF2A4A",
+				"type": "color"
+			},
+			{
+				"name": "red2",
+				"value": "#AB2039",
+				"type": "color"
+			},
+			{
+				"name": "red3",
+				"value": "#F83C5D",
+				"type": "color"
+			},
+			{
+				"name": "yellow",
+				"value": "#FCFAE8",
+				"type": "color"
+			},
+			{
+				"name": "yellow-highlight",
+				"value": "#e5d895",
+				"type": "color"
+			},
+			{
+				"name": "white",
+				"value": "#FFFFFF",
+				"type": "color"
+			},
+			{
+				"name": "white2",
+				"value": "#F0F2F5",
+				"type": "color"
+			},
+			{
+				"name": "white3",
+				"value": "#F2F3F5",
+				"type": "color"
+			},
+			{
+				"name": "orange",
+				"value": "#F18200",
+				"type": "color"
+			},
+			{
+				"name": "orange2",
+				"value": "#F28A10",
+				"type": "color"
+			},
+			{
+				"name": "orange3",
+				"value": "#D4790D",
+				"type": "color"
+			},
+			{
+				"name": "background",
+				"value": "#F3F4F5",
+				"type": "color"
+			},
+			{
+				"name": "border",
+				"value": "#E8E8EB",
+				"type": "color"
+			},
+			{
+				"name": "inline-background",
+				"value": "#F2F7FD",
+				"type": "color"
+			},
+			{
+				"name": "input-border",
+				"value": "#D0D1D7",
+				"type": "color"
+			},
+			{
+				"name": "box-background",
+				"value": "#F9F9FA",
+				"type": "color"
+			},
+			{
+				"name": "box-background2",
+				"value": "#f8fbff",
+				"type": "color"
+			},
+			{
+				"name": "placeholder-color",
+				"value": "#8C8F9A",
+				"type": "color"
+			},
+			{
+				"name": "font-color",
+				"value": "#3c434a",
+				"type": "color"
+			}
+		],
+		"fontFamily": [
+			{
+				"name": "font-family",
+				"value": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+				"type": "fontFamily"
+			}
+		],
+		"typography": [
+			{
+				"name": "font-bold",
+				"value": "600",
+				"type": "typography"
+			}
+		],
+		"fontSize": [
+			{
+				"name": "font-sm",
+				"value": "12px",
+				"type": "fontSize"
+			},
+			{
+				"name": "font-md",
+				"value": "14px",
+				"type": "fontSize"
+			},
+			{
+				"name": "font-lg",
+				"value": "16px",
+				"type": "fontSize"
+			}
+		],
+		"space": [
+			{
+				"name": "gutter",
+				"value": "20px",
+				"type": "space"
+			},
+			{
+				"name": "gutter-sm",
+				"value": "16px",
+				"type": "space"
+			},
+			{
+				"name": "gutter-half",
+				"value": "10px",
+				"type": "space"
+			}
+		]
+	}
+}

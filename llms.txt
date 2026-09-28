@@ -1,0 +1,106 @@
+# AIOSEO Design System
+
+> Living documentation for the AIOSEO WordPress SEO plugin's Vue 3 design system. **31 documented components · 194 icons + 9 illustrations · 44 SCSS tokens** — pulled live from the all-in-one-seo-pack-pro monorepo. Use this as the canonical reference when generating Vue components, SCSS, or admin UI for AIOSEO.
+
+The system is small and deliberate: 31 documented components plus the full 194-icon set + 9 illustrations, 44 SCSS tokens (color, typography, spacing), a 12-column flexbox grid with the primary breakpoint at 912px. Components are imported live via Vite alias — they cannot drift from the monorepo source.
+
+## Reference
+
+- [Live Storybook](https://aioseo-storybook.pages.dev): Browseable component library and foundations
+- [Design tokens (JSON)](https://aioseo-storybook.pages.dev/aioseo-tokens.json): 44 SCSS variables — color, fontSize, fontFamily, typography, space — with name, value, type, and grouped indexes
+- [Icon catalog (JSON)](https://aioseo-storybook.pages.dev/aioseo-icons.json): 194 svg-* components — tag, path, viewBox, body
+- [Illustration catalog (JSON)](https://aioseo-storybook.pages.dev/aioseo-illustrations.json): 8 hero / mascot SVGs (Dannie + 4 named hero graphics)
+- [AIOSEO design system skill](https://aioseo-storybook.pages.dev/aioseo-design-system.md): Canonical component table, SCSS rules, and "never" list
+
+## Components — Base (form primitives, ordered by frequency of use)
+
+- [base-button](https://aioseo-storybook.pages.dev/?path=/docs/components-base-button--docs): type variants (default/blue/black/green/red/gray/wp-blue), sizes (small-table/small/medium/large), loading, disabled, link, newBadge
+- [base-input](https://aioseo-storybook.pages.dev/?path=/docs/components-base-input--docs): sizes 32/40/48px, validation prop for email/url (no public `error` prop), prependIcon/appendIcon
+- [base-textarea](https://aioseo-storybook.pages.dev/?path=/docs/components-base-textarea--docs): autosize multi-line input, minHeight/maxHeight props
+- [base-toggle](https://aioseo-storybook.pages.dev/?path=/docs/components-base-toggle--docs): binary on/off switch
+- [base-checkbox](https://aioseo-storybook.pages.dev/?path=/docs/components-base-checkbox--docs): boolean with custom checkmark
+- [base-radio-toggle](https://aioseo-storybook.pages.dev/?path=/docs/components-base-radio-toggle--docs): segmented control, required `options` and `name`
+- [base-select](https://aioseo-storybook.pages.dev/?path=/docs/components-base-select--docs): wraps vue-multiselect, supports multiple/taggable/searchable
+- [base-editor](https://aioseo-storybook.pages.dev/?path=/docs/components-base-editor--docs): low-level Quill editor (95% of cases use core-html-tags-editor wrapper)
+
+## Components — Core (ordered by frequency of use, tiered)
+
+### Tier 1 — fundamental (every settings page)
+
+- [core-card](https://aioseo-storybook.pages.dev/?path=/docs/components-core-card--docs): primary container; requires `slug`; reads collapsed state from useSettingsStore
+- [core-settings-row](https://aioseo-storybook.pages.dev/?path=/docs/components-core-settings-row--docs): two-column label + content row; slots: name/description/content/header
+- [core-alert](https://aioseo-storybook.pages.dev/?path=/docs/components-core-alert--docs): blue/green/red/yellow inline alerts; smaller/small/medium sizes; showClose
+- [core-tooltip](https://aioseo-storybook.pages.dev/?path=/docs/components-core-tooltip--docs): hover/click hint; default trigger pattern uses svg-circle-question-mark
+- [core-pro-badge](https://aioseo-storybook.pages.dev/?path=/docs/components-core-pro-badge--docs): Pro-only label, defaults to "PRO"
+
+### Tier 2 — dialogs and structure
+
+- [core-modal](https://aioseo-storybook.pages.dev/?path=/docs/components-core-modal--docs): centered dialog; teleports to portal; modal-stack ESC routing
+- [core-drawer](https://aioseo-storybook.pages.dev/?path=/docs/components-core-drawer--docs): right-anchored slide-in; stacks with modals
+- [core-tabs](https://aioseo-storybook.pages.dev/?path=/docs/components-core-tabs--docs): tab strip; tabs prop is array of {title, component}
+
+### Tier 3 — utility
+
+- [core-loader](https://aioseo-storybook.pages.dev/?path=/docs/components-core-loader--docs): two-bounce CSS spinner; dark variant for white surfaces
+- [core-pagination](https://aioseo-storybook.pages.dev/?path=/docs/components-core-pagination--docs): WordPress-style pagination; requires `totals: { total, pages }`
+- [core-blur](https://aioseo-storybook.pages.dev/?path=/docs/components-core-blur--docs): CSS-blur wrapper for Pro upsells; live + documented
+
+### Tier 4 — admin shell / specialized forms
+
+- [core-notifications](https://aioseo-storybook.pages.dev/?path=/docs/components-core-notifications--docs): slide-in notification panel; documented (heavy admin coupling)
+- [core-html-tags-editor](https://aioseo-storybook.pages.dev/?path=/docs/components-core-html-tags-editor--docs): tag-aware editor for meta titles / descriptions / schema fields
+- [core-code-editor](https://aioseo-storybook.pages.dev/?path=/docs/components-core-code-editor--docs): Prism-highlighted code field (JSON, robots.txt, headers)
+- [core-add-template-tag](https://aioseo-storybook.pages.dev/?path=/docs/components-core-add-template-tag--docs): clickable chip rendered above editor inputs; slot-only
+- [core-emoji](https://aioseo-storybook.pages.dev/?path=/docs/components-core-emoji--docs): emoji-mart picker with modal-stack integration
+
+### Tier 5 — context-specific / low-level
+
+- [core-network-site-selector](https://aioseo-storybook.pages.dev/?path=/docs/components-core-network-site-selector--docs): multisite site dropdown
+- [core-feature-card](https://aioseo-storybook.pages.dev/?path=/docs/components-core-feature-card--docs): Feature Manager card (heavy admin-coupling — doc-only)
+- [core-popper](https://aioseo-storybook.pages.dev/?path=/docs/components-core-popper--docs): low-level positioning primitive — reach for core-tooltip first
+- [core-processing-popup](https://aioseo-storybook.pages.dev/?path=/docs/components-core-processing-popup--docs): bottom-right progress toast for long tasks
+- [core-progress-circle](https://aioseo-storybook.pages.dev/?path=/docs/components-core-progress-circle--docs): animated SVG progress arc; live + documented; required `percent` prop
+
+## Components — Layout
+
+- [grid](https://aioseo-storybook.pages.dev/?path=/docs/components-grid--docs): `<grid-row>` + `<grid-column>` — 12-col flexbox, breakpoints xs/sm/md/lg/xl with md=912px primary
+
+## Foundations
+
+- [Colors](https://aioseo-storybook.pages.dev/?path=/docs/foundations-colors--docs): All color tokens grouped by hue with WCAG contrast pairings
+- [Typography](https://aioseo-storybook.pages.dev/?path=/docs/foundations-typography--docs): 3 tokenized sizes ($font-sm 12px, $font-md 14px, $font-lg 16px), 1 tokenized weight ($font-bold 600). Real usage data showing where the codebase drifts.
+- [Spacing](https://aioseo-storybook.pages.dev/?path=/docs/foundations-spacing--docs): $gutter 20px, $gutter-sm 16px, $gutter-half 10px. Plus --aioseo-gutter at runtime.
+- [Radius](https://aioseo-storybook.pages.dev/?path=/docs/foundations-radius--docs): No tokens today. The de-facto values are 3px (cards/inputs), 4px (buttons), 50% (avatars), pill values.
+- [Shadow](https://aioseo-storybook.pages.dev/?path=/docs/foundations-shadow--docs): Three de-facto elevation levels (card / modal / drawer) plus focus ring + glow. None tokenized today.
+- [Layout](https://aioseo-storybook.pages.dev/?path=/docs/foundations-layout--docs): Grid breakpoints and core-settings-row layout caps (left ≤ 240px, right ≤ 940px at md+)
+- [Iconography](https://aioseo-storybook.pages.dev/?path=/docs/foundations-iconography--docs): 195 icons with searchable browser + naming convention + status-color pattern
+- [Illustrations](https://aioseo-storybook.pages.dev/?path=/docs/foundations-illustrations--docs): 8 hero / mascot graphics (Dannie + named SEO illustrations)
+
+## Showcase — composition examples
+
+- [Showcase Overview](https://aioseo-storybook.pages.dev/?path=/docs/showcase-overview--docs): why composition demos exist + what's covered
+- [Site Settings](https://aioseo-storybook.pages.dev/?path=/story/showcase-settings-page--site-settings): full multi-card settings page using 11 components
+- [Post Editor sidebar](https://aioseo-storybook.pages.dev/?path=/story/showcase-settings-page--post-editor-sidebar): drawer-based per-post SEO settings
+- [Feature Manager](https://aioseo-storybook.pages.dev/?path=/story/showcase-settings-page--feature-manager): grid of feature cards in three states
+
+## Process
+
+- [Get started](https://aioseo-storybook.pages.dev/?path=/docs/get-started-introduction--docs): Overview, prerequisites, install commands
+- [Contributing](https://aioseo-storybook.pages.dev/?path=/docs/get-started-contributing--docs): How to add a component story, extend a foundation, mock a Pinia store
+- [Roadmap](https://aioseo-storybook.pages.dev/?path=/docs/get-started-roadmap--docs): 15 proposed tokens, what's next, drift cleanup PRs
+
+## Rules for AI agents generating AIOSEO code
+
+- Use SCSS variables, never raw px values. `$blue` not `#005AE0`. `$gutter` not `20px`. Variables auto-injected via Vite additionalData.
+- Reach for existing components before inventing. The 31 above are canonical.
+- No `scoped` on `<style>` blocks. AIOSEO styles are global.
+- No `@wordpress/components` (Button, Modal, Notice, TextControl). AIOSEO has equivalents. Single exception: `@wordpress/commands` for the command palette.
+- `<base-input>` has NO public `error` prop. Validation is internal — use `validation="email"` and trigger via blur.
+- `<core-card>` requires a `slug` prop and reads from `useSettingsStore`.
+- `<core-modal>` and `<core-drawer>` register in `useRootStore().modals` for stacked ESC routing — both share the LIFO stack.
+- `<core-tabs>` takes a `tabs` array of `{title, component}` — declared as data, not slots.
+- `<core-pagination>` requires `totals: { total, pages }` and emits `@paginate`.
+- `<core-feature-card>` is heavy admin coupling — addon shape + 3 stores. Storybook page is doc-only.
+- The 12-column grid breakpoint suffixes are xs/sm/md/lg/xl. md=912px is primary.
+- Icons (195) use `fill="currentColor"` — set color on parent to tint. Full list at /aioseo-icons.json.
+- Illustrations (8) are decorative-only. Reserve for hero/empty-state moments. Don't shrink them to icon sizes. Full list at /aioseo-illustrations.json.
